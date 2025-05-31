@@ -1,0 +1,211 @@
+
+.main .mainTitleBox .mainTitleBox{ opacity: 0; }
+.main .mainTitleBox.on .mainTitleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .visualArti .contentBox .mainTit{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .visualArti .contentBox .subTit{ opacity: 0; animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;  animation-delay: 0.1s;}
+.main .visualArti .slogan{ opacity: 0; animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+.main .memberArti .tabContainer{ opacity: 0; }
+.main .memberArti.on .tabContainer{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .memberArti .tabContainer .contentList > li .item .contentBox .nameBox{ opacity: 0; }
+.main .memberArti.on .tabContainer .contentList > li .item .contentBox .nameBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.main .memberArti .tabContainer .contentList > li .item .contentBox .listBox{ opacity: 0; }
+.main .memberArti.on .tabContainer .contentList > li .item .contentBox .listBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+.main .memberArti.on .tabContainer .contentList > li .item .contentBox .listBox:last-child{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
+
+.main .memberArti2 .tabContainer{ opacity: 0; }
+.main .memberArti2.on .tabContainer{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .memberArti2 .tabContainer .contentList > li .item .contentBox .nameBox{ opacity: 0; }
+.main .memberArti2.on .tabContainer .contentList > li .item .contentBox .nameBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.main .memberArti2 .tabContainer .contentList > li .item .contentBox .listBox{ opacity: 0; }
+.main .memberArti2.on .tabContainer .contentList > li .item .contentBox .listBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+.main .memberArti2.on .tabContainer .contentList > li .item .contentBox .listBox:last-child{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
+
+.main .rereceptionArti .txt_box{ opacity: 0; }
+.main .rereceptionArti.on .txt_box{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .rereceptionArti .reception_box{ opacity: 0; }
+.main .rereceptionArti.on .reception_box{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+.main .categoryArti .mainTitleBox{ opacity: 0; }
+.main .categoryArti.on .mainTitleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .categoryArti .slideWrap{ opacity: 0; }
+.main .categoryArti.on .slideWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+@media screen and (max-width: 650px) { 
+    .main .categoryArti .swiper-pagination { opacity: 0; }
+    .main .categoryArti.on .swiper-pagination { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+    .main .categoryArti.on .slideWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+}
+
+.main .aboutUsArti .mainTitleBox .t1{ opacity: 0; }
+.main .aboutUsArti.on .mainTitleBox .t1{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .aboutUsArti .contentBox{ opacity: 0; }
+.main .aboutUsArti.on .contentBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.main .aboutUsArti .boldText{ opacity: 0; }
+.main .aboutUsArti.on .boldText{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+.main .locationArti .mainTitleBox{ opacity: 0; }
+.main .locationArti.on .mainTitleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .locationArti .imgBox .txt{ opacity: 0; }
+.main .locationArti.on .imgBox .txt{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+.main .visitArti .calWrap{ opacity: 0; }
+.main .visitArti.on .calWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .visitArti .applyWrap{ opacity: 0; }
+.main .visitArti.on .applyWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+.main .mapArti .mapViewWrap{ opacity: 0; }
+.main .mapArti.on .mapViewWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .mapArti .mapTxtWrap{ opacity: 0; }
+.main .mapArti.on .mapTxtWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+.main .applyArti .mainTitleBox{ opacity: 0; }
+.main .applyArti.on .mainTitleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .applyArti .whiteBox .applyFormBox{ opacity: 0; }
+.main .applyArti.on .whiteBox .applyFormBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+.main .newsArti22 .mainTitleBox{ opacity: 0; }
+.main .newsArti22.on .mainTitleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .newsArti22 .slideWrap{ opacity: 0; }
+.main .newsArti22.on .slideWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+.sub .subContentArti .categoryBox{ opacity: 0; }
+.sub .subContentArti.on .categoryBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub .subContentArti .titleBox{ opacity: 0; }
+.sub .subContentArti.on .titleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.sub .subContentArti .contentBox.center{ opacity: 0; }
+.sub .subContentArti.on .contentBox.center{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+.sub .profileArti{ opacity: 0; }
+.sub .profileArti.on{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+@keyframes progress-animation {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translate3d(0px, 30px, 0px); }
+    100% { opacity: 1; transform: translate3d(0px, 0px, 0px); }
+}
+
+@keyframes scrollAni {
+    0% {
+	transform: translateY(0);
+    }
+
+    40% {
+	transform: translateY(10px);
+    }
+
+    100% {
+	transform: translateY(0);
+    }
+}
+
+/* sub  */
+.main .caseArti .titleBox{ opacity: 0; }
+.main .caseArti.on .titleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .caseArti .slideWrap{ opacity: 0; }
+.main .caseArti.on .slideWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+.main .caseArti2 .searchBox{ opacity: 0; }
+.main .caseArti2.on .searchBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .caseArti2 .tabContainer{ opacity: 0; }
+.main .caseArti2.on .tabContainer{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+.main .caseArti2 .pagingWrap{ opacity: 0; }
+.main .caseArti2.on .pagingWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
+
+.main .bestArti .mainTitleBox{ opacity: 0; }
+.main .bestArti.on .mainTitleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .bestArti .slideWrap{ opacity: 0; }
+.main .bestArti.on .slideWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+.main .newsArti .mainTitleBox{ opacity: 0; }
+.main .newsArti.on .mainTitleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .newsArti .slideContainer .itemBox{ opacity: 0; }
+.main .newsArti.on .slideContainer .itemBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+.main .newsArti .slideContainer .swiper-pagination{ opacity: 0; }
+.main .newsArti.on .slideContainer .swiper-pagination{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+.main .columnsArti .mainTitleBox{ opacity: 0; }
+.main .columnsArti.on .mainTitleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .columnsArti .columnList > li{ opacity: 0; }
+.main .columnsArti.on .columnList > li:nth-child(1){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.main .columnsArti.on .columnList > li:nth-child(2){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.main .columnsArti.on .columnList > li:nth-child(3){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.15s; }
+.main .columnsArti.on .columnList > li:nth-child(4){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+.main .columnsArti.on .columnList > li:nth-child(5){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.25s; }
+.main .columnsArti.on .columnList > li:nth-child(6){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
+.main .columnsArti.on .columnList > li:nth-child(7){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.35s; }
+.main .columnsArti.on .columnList > li:nth-child(8){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.4s; }
+
+.main .newsArti2 .storyList > li{ opacity: 0; }
+.main .newsArti2.on .storyList > li:nth-child(1){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.main .newsArti2.on .storyList > li:nth-child(2){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.main .newsArti2.on .storyList > li:nth-child(3){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.15s; }
+.main .newsArti2.on .storyList > li:nth-child(4){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+.main .newsArti2.on .storyList > li:nth-child(5){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.25s; }
+.main .newsArti2.on .storyList > li:nth-child(6){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
+.main .newsArti2.on .storyList > li:nth-child(7){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.35s; }
+.main .newsArti2.on .storyList > li:nth-child(8){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.4s; }
+.main .newsArti2 .pagingWrap{ opacity: 0; }
+.main .newsArti2.on .pagingWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.8s; }
+
+/* sub */
+.sub .proArti .titleBox{ opacity: 0; }
+.sub .proArti.on .titleBox{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub .proArti .laywer_list > li{ opacity: 0; }
+.sub .proArti.on .laywer_list > li:nth-child(1){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.sub .proArti.on .laywer_list > li:nth-child(2){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.sub .proArti.on .laywer_list > li:nth-child(3){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+
+.sub .proViewArti .nameBox { opacity: 0; }
+.sub .proViewArti.on .nameBox { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub .proViewArti .btnWrap { opacity: 0; }
+.sub .proViewArti.on .btnWrap { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub .proViewArti .txtBox > .txtInner { opacity: 0; }
+.sub .proViewArti.on .txtBox > .txtInner:nth-child(1) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.sub .proViewArti.on .txtBox > .txtInner:nth-child(2) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.sub .proViewArti.on .txtBox > .txtInner:nth-child(3) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.sub .proViewArti.on .txtBox > .txtInner:nth-child(4) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+.sub .consultWrap .tabMenu ul > li { opacity: 0; }
+.sub .consultWrap.on .tabMenu ul > li { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub .consultWrap .contWrap .contTit { opacity: 0; }
+.sub .consultWrap.on .contWrap .contTit { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.sub .mapArti .mapViewWrap { opacity: 0; }
+.sub .mapArti.on .mapViewWrap { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.sub .mapArti .mapTxtWrap { opacity: 0; }
+.sub .mapArti.on .mapTxtWrap { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.15s; }
+.sub .visitArti .calWrap { opacity: 0; }
+.sub .visitArti.on .calWrap { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+.sub .visitArti .applyWrap { opacity: 0; }
+.sub .visitArti.on .applyWrap { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.25s; }
+
+.sub .counsellingArti .tabMenu ul > li { opacity: 0; }
+.sub .counsellingArti.on .tabMenu ul > li { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub .counsellingArti .contWrap .contTit { opacity: 0; }
+.sub .counsellingArti.on .contWrap .contTit { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.sub .counsellingArti .contWrap .contSubTit { opacity: 0; }
+.sub .counsellingArti.on .contWrap .contSubTit { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.sub .counsellingArti .searchBox { opacity: 0; }
+.sub .counsellingArti.on .searchBox { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.15s; }
+.sub .counsellingArti .btnWrap { opacity: 0; }
+.sub .counsellingArti.on .btnWrap { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+.sub .counsellingArti .tableWrap { opacity: 0; }
+.sub .counsellingArti.on .tableWrap { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.25s; }
+.sub .counsellingArti .pagin { opacity: 0; }
+.sub .counsellingArti.on .pagin { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
+
+.sub .counsellingVEArti .tabMenu ul > li { opacity: 0; }
+.sub .counsellingVEArti.on .tabMenu ul > li { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub .counsellingVEArti .tabCont .contTit { opacity: 0; }
+.sub .counsellingVEArti.on .tabCont .contTit { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.sub .counsellingVEArti .tabCont .contSubTit { opacity: 0; }
+.sub .counsellingVEArti.on .tabCont .contSubTit { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+.sub .counsellingWrArti .formWrap .formSubTit { opacity: 0; }
+.sub .counsellingWrArti.on .formWrap .formSubTit { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub .counsellingWrArti .formWrap .formTit { opacity: 0; }
+.sub .counsellingWrArti.on .formWrap .formTit { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }

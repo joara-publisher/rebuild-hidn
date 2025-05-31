@@ -1,0 +1,59 @@
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translate3d(0px, 30px, 0px); }
+    100% { opacity: 1; transform: translate3d(0px, 0px, 0px); }
+}
+
+@keyframes scrollAni {
+    0% {
+	transform: translateY(0);
+    }
+
+    40% {
+	transform: translateY(10px);
+    }
+
+    100% {
+	transform: translateY(0);
+    }
+}
+
+.main .visualArti .contentBox .mainTit{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .visualArti .contentBox .subTit{ opacity: 0; animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s;}
+
+.main .rereceptionArti .txt_box{ opacity: 0; }
+.main .rereceptionArti.on .txt_box{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .rereceptionArti .reception_box{ opacity: 0; }
+.main .rereceptionArti.on .reception_box{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+.main .importArti .imgWrap > li{ opacity: 0; }
+.main .importArti.on .imgWrap ul:first-child li:nth-child(1){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.main .importArti.on .imgWrap ul:first-child li:nth-child(2){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.main .importArti.on .imgWrap ul:last-child li:nth-child(1){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.15s; }
+.main .importArti .txtWrap{ opacity: 0; }
+.main .importArti.on .txtWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+.main .systemArti .txtWrap{ opacity: 0; }
+.main .systemArti.on .txtWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .systemArti .imgWrap{ opacity: 0; }
+.main .systemArti.on .imgWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+.main .promiseArti .txtWrap .tit{ opacity: 0; }
+.main .promiseArti.on .txtWrap .tit{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .promiseArti .txtWrap .subTit{ opacity: 0; }
+.main .promiseArti.on .txtWrap .subTit{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.main .promiseArti .txtWrap ul > li{  opacity: 0; }
+.main .promiseArti.on .txtWrap ul > li:nth-child(1){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+.main .promiseArti.on .txtWrap ul > li:nth-child(2){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.15s; }
+.main .promiseArti.on .txtWrap ul > li:nth-child(3){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+.main .certiArti .certiTit { opacity: 0; }
+.main .certiArti.on .certiTit { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .applyArti .mainTit { opacity: 0; }
+.main .applyArti.on .mainTit { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .applyArti .timeBox { opacity: 0; }
+.main .applyArti.on .timeBox { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.05s; }
+.main .applyArti .text { opacity: 0; }
+.main .applyArti.on .text { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
+
+
